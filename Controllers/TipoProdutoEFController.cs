@@ -1,8 +1,9 @@
-﻿using FiapSmartCity.Models;
-using FiapSmartCity.Repository;
+﻿using FIAPSmartCity.Models;
+using FIAPSmartCity.Repository;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Infrastructure;
 
-namespace FIAPSmartCity.Controllers
+namespace FiapSmFIAPSmartCityartCity.Controllers
 {
     public class TipoProdutoEFController : Controller
     {
@@ -16,7 +17,7 @@ namespace FIAPSmartCity.Controllers
             ProdutoRepository = new ProdutoRepository();
         }
 
-        [FiapSmartCity.Controllers.Filtros.LogFilter]
+        //[Controllers.Filtros.LogFilter]
         [HttpGet]
         public IActionResult Index()
         {
@@ -33,7 +34,7 @@ namespace FIAPSmartCity.Controllers
 
         // Anotação de uso do Verb HTTP Post
         [HttpPost]
-        public ActionResult Cadastrar(FiapSmartCity.Models.TipoProdutoEF TipoProdutoEF)
+        public ActionResult Cadastrar(Models.TipoProdutoEF TipoProdutoEF)
         {
             if (ModelState.IsValid)
             {
@@ -57,7 +58,7 @@ namespace FIAPSmartCity.Controllers
         }
 
         [HttpPost]
-        public ActionResult Editar(FiapSmartCity.Models.TipoProdutoEF tipoProdutoEF)
+        public ActionResult Editar(Models.TipoProdutoEF tipoProdutoEF)
         {
 
             if (ModelState.IsValid)

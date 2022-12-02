@@ -1,11 +1,11 @@
-﻿using FiapSmartCity.Models;
+﻿using FIAPSmartCity.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace FiapSmartCity.Repository.Context
+namespace FIAPSmartCity.Repository.Context
 {
     public class DataBaseContext : DbContext
     {
-        public DbSet<TipoProduto> TipoProduto { get; set; }
+        //public DbSet<TipoProduto> TipoProduto { get; set; }
         public DbSet<Produto> Produto { get; set; }
         public DbSet<TipoProdutoEF> TipoProdutoEF { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

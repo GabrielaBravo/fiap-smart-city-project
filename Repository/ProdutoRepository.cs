@@ -1,8 +1,8 @@
-﻿using FiapSmartCity.Models;
-using FiapSmartCity.Repository.Context;
+﻿using FIAPSmartCity.Models;
+using FIAPSmartCity.Repository.Context;
 using Microsoft.EntityFrameworkCore;
 
-namespace FiapSmartCity.Repository
+namespace FIAPSmartCity.Repository
 {
     public class ProdutoRepository
     {

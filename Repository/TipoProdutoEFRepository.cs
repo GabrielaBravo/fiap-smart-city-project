@@ -1,9 +1,10 @@
-﻿using FiapSmartCity.Models;
-using FiapSmartCity.Repository.Context;
+﻿using FIAPSmartCity.Models;
+using FIAPSmartCity.Repository.Context;
 
 
 
-namespace FiapSmartCity.Repository
+
+namespace FIAPSmartCity.Repository
 {
     public class TipoProdutoRepositoryEF
     {

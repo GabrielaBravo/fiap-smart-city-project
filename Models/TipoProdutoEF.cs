@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
-namespace FiapSmartCity.Models
+namespace FIAPSmartCity.Models
 {
     public class TipoProdutoEF
     {

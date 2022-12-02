@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System;
 
-namespace FiapSmartCity.Models
+namespace FIAPSmartCity.Models
 {
     [Table("PRODUTO")]
     public class Produto
